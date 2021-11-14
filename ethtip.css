@@ -34,3 +34,10 @@
     transform: scale(0.95);
     box-shadow: 0 2px 4px 0 var(--ethtip-shadow-color), 0 3px 10px 0 var(--ethtip-shadow-color);
 }
+
+@media screen and (max-width: 680px) {
+    #ethTip {
+        right: 20px;
+        bottom: 20px;
+    }
+}
