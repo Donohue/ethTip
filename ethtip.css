@@ -1,0 +1,36 @@
+:root {
+    --ethtip-shadow-color: rgba(0, 0, 0, 0.2);
+    --ethtip-background-color: white;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root {
+        --ethtip-shadow-color: rgba(255, 255, 255, 0.2);
+        --ethtip-background-color: rgb(17, 17, 17);
+    }
+}
+
+#ethTip {
+	display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 var(--ethtip-shadow-color), 0 6px 20px 0 var(--ethtip-shadow-color);
+    background-color: var(--ethtip-background-color);
+    background: url('/img/eth.png') no-repeat center;
+	background-size: 22px 35px;
+}
+
+#ethTip.active {
+	display: block;
+}
+
+#ethTip:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px 0 var(--ethtip-shadow-color), 0 3px 10px 0 var(--ethtip-shadow-color);
+}
