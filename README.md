@@ -1,6 +1,6 @@
 # ethTip
 
-![icon](/eth.png "ethereum icon")
+![icon](eth.png "ethereum icon")
 
 An opensource drop-in for Ethereum tipping on your website.
 
