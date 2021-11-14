@@ -21,8 +21,8 @@
     border: 0;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 var(--ethtip-shadow-color), 0 6px 20px 0 var(--ethtip-shadow-color);
-    background-color: var(--ethtip-background-color);
     background: url('https://bthdonohue.com/ethTip/eth.png') no-repeat center;
+    background-color: var(--ethtip-background-color);
 	background-size: 22px 35px;
 }
 
