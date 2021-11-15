@@ -18,8 +18,8 @@ You can integrate ethTip with a few lines of HTML on your site.
 2. Include the ethtip.js and ethtip.css files in your `head` tag
 
 ```
-<link rel="stylesheet" href="/css/ethtip.css">
-<script src="/js/eth.js"></script>
+<link rel="stylesheet" href="https://bthdonohue.com/ethTip/ethtip.css">
+<script src="https://bthdonohue.com/ethTip/ethtip.js"></script>
 ```
 
 3. Add the ethtip button at the bottom of your `body` tag
